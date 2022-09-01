@@ -20,7 +20,7 @@ Continuous Delivery ensures that you can release new changes to your customers q
 ## Continuous Deployment 
 Continuous Deployment goes one step further than continuous delivery, with this practice, **every change that passes all stages of your production pipeline is released to your customers, there is no human intervention**, and only a failed test will prevent a new change to be deployed to production.
 
-![image](https://user-images.githubusercontent.com/104793540/187894049-3d630a23-58f8-482b-bbc1-8574476c8e51.png)
+![image](https://user-images.githubusercontent.com/104793540/187894786-00bf110b-5b88-4612-8e1f-fb10a230eec4.png)
 
 ## Jenkins 
 
