@@ -42,9 +42,11 @@ Jenkins is an open-source automation server in which the central build and CI pr
 
 ![image](https://user-images.githubusercontent.com/104793540/187898644-a0a51831-18a3-41d4-a9e6-9d65cbe63fbb.png)
 
-- 
-
-
+#### Linking Github & Jenkins
+- generate new ssh key in ssh folder on local host
+- add key.pub into github repo under repo settings > deploy key 
+- move app folder to same repo 
+- add private key to Jenkins 
 
 ## Webhook 
 Webhooks are custom HTTP callbacks that you define. They are usually **triggered by an event, such as pushing code to a repository** or when a commit happens. When the event occurs, the source app makes an HTTP request to the URI configured for the webhook. The action to take may be anything. For example, you can use webhooks to:
