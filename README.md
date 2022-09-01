@@ -8,6 +8,8 @@ CI CD is the blueprint to devops strategies and reason for **faster software rel
 To put it simply, the continuous integration is part of both continuous delivery and continuous deployment. The main difference is the deployment step, in **continuous delivery the deployment is done manually** and in **continuous deployment it happens automatically**
 - CI/CD exist to automate the deployments and building of software
 
+![image](https://user-images.githubusercontent.com/104793540/187893411-61138c31-ad8b-461e-b7fa-65d00c963587.png)
+
 ## Continuous Integration (CI)
 Developers merge/commit code to master branch multiple times a day, fully automated build and test process which gives feedback within few minutes, by doing so, you avoid the integration hell that usually happens when people wait for release day to merge their changes into the release branch.
 
