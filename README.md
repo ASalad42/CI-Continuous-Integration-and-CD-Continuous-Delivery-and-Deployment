@@ -1,4 +1,4 @@
-# CI CD Pipeline
+# CI/CD Pipeline
 
 CI CD is the blueprint to devops strategies and reason for **faster software releases**. CI/CD facilitates an effective process for getting **products to market faster**, continuously delivering code into production, and ensuring an **ongoing flow of new features and bug fixes via the most efficient delivery method.**
 - In short, CI is a set of practices performed as developers are writing code, and CD is a set of practices performed after the code is completed.
