@@ -62,15 +62,10 @@ Webhooks are custom HTTP callbacks that you define. They are usually **triggered
 - Send a notification to Slack every time a job fails.
 - send sns to inform somone 
 - Automatically assign labels to merge requests.
-
-from dev branch
-<<<<<<< HEAD
-change on local host
-=======
 - in github > repo settings > webhooks > add
 - copy jenkin ip/webhook/
--  
->>>>>>> 0270fd9876e92b0e3cbf2319e91d69b58e993e80
+
+
 ## SSH Github 
 To production env via ssh (hhtp not secure)
 
