@@ -1,1 +1,8 @@
-# CI-Continuous-Integration-and-CD-Continuous-Delivery-and-Deployment
+# CI CD Pipeline
+
+
+Continuous Integration (CI)
+
+Continuous Delivery
+
+Continuous Deployment 
