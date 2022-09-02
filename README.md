@@ -166,10 +166,13 @@ so the following was done in dev on local host > pushed > jenkins recieved and t
 - create new ec2 instance (new feature so cant use ami)
 - Create sg – allow Jenkins ip to ssh in as well as any rules required 
 
-![image](https://user-images.githubusercontent.com/104793540/188130660-e989e083-1b8f-4d55-a92b-9bd359116817.png)
+![image](https://user-images.githubusercontent.com/104793540/188131869-fb88efc1-8472-419c-a3c7-5d31fe02dee4.png)
 
 
 - Create 3rd job in Jenkins: get the code from main branch and copy (scp) to ec2 – run the script  to install node with any other required dependencies  
+
+![image](https://user-images.githubusercontent.com/104793540/188131968-f3c1d553-b50c-49fb-b1a0-1152ab53c205.png)
+
 - 3rd job only triggered 
 - First iteration run npm install & npm start manually 
 - 4th job launch the app – if 3rd was successful 
