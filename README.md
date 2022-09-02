@@ -8,6 +8,8 @@ CI CD is the blueprint to devops strategies and reason for **faster software rel
 To put it simply, the continuous integration is part of both continuous delivery and continuous deployment. The main difference is the deployment step, in **continuous delivery the deployment is done manually** and in **continuous deployment it happens automatically**
 - CI/CD exist to automate the deployments and building of software
 
+Working Diagram:
+
 ![image](https://user-images.githubusercontent.com/104793540/187963750-f3c11787-1e12-4fd6-ab3f-927099002c47.png)
 
 ## Continuous Integration (CI)
@@ -20,9 +22,17 @@ Continuous Delivery ensures that you can release new changes to your customers q
 ## Continuous Deployment 
 Continuous Deployment goes one step further than continuous delivery, with this practice, **every change that passes all stages of your production pipeline is released to your customers, there is no human intervention**, and only a failed test will prevent a new change to be deployed to production.
 
-## Pipline 
+## CI/CD Pipline 
 
 ![image](https://user-images.githubusercontent.com/104793540/187894786-00bf110b-5b88-4612-8e1f-fb10a230eec4.png)
+
+
+### Benifts 
+- Faster software releases 
+- Reduce cost (less overall manual work due to automation) 
+- Fault isolations 
+- Robustness (increased test reliability)
+- Easier updates 
 
 ## Jenkins 
 
