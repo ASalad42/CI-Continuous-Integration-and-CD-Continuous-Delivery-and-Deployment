@@ -67,9 +67,25 @@ Webhooks are custom HTTP callbacks that you define. They are usually **triggered
 
 
 ## SSH Github 
-To production env via ssh (hhtp not secure)
+- Must go into production environment via ssh (hhtp not secure)
+- in working repo > go to settings
+- deploy keys section 
+- add key (public key created in .ssh folder) (add all contents here)
+
 ## SSH Github to Jenkins 
+- configure job 
+- under Source Code Management > repository url >ssh url
+- click add > jenkins > kind: SSH Username with private key
+- cat privatkey - begin to end - everything in that file copy over 
+- credentials same as deploy key name 
+
 ## SSH-AWS-keys from Jenkins to AWS
+
+- configure job 
+- under Source Code Management > repository url > ssh url
+- click add > jenkins > kind: SSH Username with private key
+- cat file.pem aws key - begin to end - everything in that file copy over 
+- credentials same as pem key name 
 
 
 ## CICD Activity
