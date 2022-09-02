@@ -185,6 +185,9 @@ Third job to get code from main branch and deploy on AWS in a running ec2 instan
 - Pm2 kill all - Create a 5th job to create DB_HOST=db-ip
 - Npm start 
 
+
+
+
 Sudo Code
 ```
 
