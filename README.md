@@ -55,7 +55,9 @@ Continuous Deployment goes one step further than continuous delivery, with this 
 
 ## Jenkins 
 
+
 Jenkins is an open-source automation server in which the central build and CI process take place, It is a Java-based program with packages for Windows, macOS, & Linux.
+Build automation server > builds your jobs and automates > lots of plugins
 
 ![image](https://user-images.githubusercontent.com/104793540/187895244-e8d9c5da-eb4b-471a-b555-6b502e94b0f1.png)
 
