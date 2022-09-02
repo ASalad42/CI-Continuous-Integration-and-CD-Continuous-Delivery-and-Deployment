@@ -167,26 +167,41 @@ so the following was done in dev on local host > pushed > jenkins recieved and t
 ### Job 3 - CD to AWS EC2
 
 Third job to get code from main branch and deploy on AWS in a running ec2 instance
+Create 3rd job in Jenkins: get the code from main branch and copy (scp) to ec2 – run the script  to install node with any other required dependencies  
+- ensure job starts after merge is successful > 
+
+![image](https://user-images.githubusercontent.com/104793540/188174868-e58d57fd-f98a-46be-8dc2-e65b08984861.png)
 
 - add contents of pem file into ssh > credentials 
 - create new ec2 instance (new feature so cant use ami)
 - Create sg – allow Jenkins ip to ssh in as well as any rules required 
 
 ![image](https://user-images.githubusercontent.com/104793540/188131869-fb88efc1-8472-419c-a3c7-5d31fe02dee4.png)
-
-
-- Create 3rd job in Jenkins: get the code from main branch and copy (scp) to ec2 – run the script  to install node with any other required dependencies  
-
 ![image](https://user-images.githubusercontent.com/104793540/188131968-f3c1d553-b50c-49fb-b1a0-1152ab53c205.png)
+![image](https://user-images.githubusercontent.com/104793540/188174560-174d23f1-d3cb-4742-8f2d-661d744c8471.png)
 
-- 3rd job only triggered if second was success 
+deliverying app into ec2:
+- rsync sshs into ec2 and delivery app folder from workspace into jenkins_app on ec2 via ip
+
+![image](https://user-images.githubusercontent.com/104793540/188181370-034053a0-8f0e-43e1-b199-f5f7ea33a7ea.png)
+![image](https://user-images.githubusercontent.com/104793540/188181726-b7cd5ce7-5018-4030-8a1b-02b107a66d14.png)
+
+
+### Job 4 - launch the app 
+
+– if 3rd was successful 
+
+### Job 5 - Create DB_HOST=db-ip
+
+
+
+### miscellaneous
+
+
 - First iteration run npm install & npm start manually 
 - 4th job launch the app – if 3rd was successful 
 - Pm2 kill all - Create a 5th job to create DB_HOST=db-ip
 - Npm start 
-
-
-
 
 Sudo Code
 ```
@@ -211,9 +226,3 @@ Sudo Code
 # nohup node app.js > /dev/null 2>&1 &
 
 ```
-
-### Job 4 - launch the app 
-
-– if 3rd was successful 
-
-### Job 5 - Create DB_HOST=db-ip
