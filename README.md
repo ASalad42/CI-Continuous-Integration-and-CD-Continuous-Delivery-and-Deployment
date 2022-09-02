@@ -102,11 +102,11 @@ https://github.com/joshnh/Git-Commands
 ![image](https://user-images.githubusercontent.com/104793540/187960069-e6bb5d89-10f8-45ab-ad27-f423270d8925.png)
 ![image](https://user-images.githubusercontent.com/104793540/187959002-a5cda70d-7229-4354-a11e-1b2398c1f5d4.png)
 
-all my attemts before hand:
+all my attempts before hand:
 
 ![image](https://user-images.githubusercontent.com/104793540/187960161-c74aa057-354e-46d3-8ddb-b8bed17610ee.png)
 
-### Have job merge the develop branch code with the master branch and test against that
+### Have job to merge the develop branch code with the master branch and test against that
 
 ![image](https://user-images.githubusercontent.com/104793540/187960543-98dbe58a-685a-43bc-afd5-d78f8df671fe.png)
 ![image](https://user-images.githubusercontent.com/104793540/187961102-1a9bcf68-8786-401f-9ff1-d379f17e6f3a.png)
@@ -115,7 +115,7 @@ all my attemts before hand:
 so the following was done in dev on local host > pushed > jenkins recieved and tested > then merged with main after success 
 ![image](https://user-images.githubusercontent.com/104793540/187961463-b53ea776-14ad-4d74-b6fd-76b571367aba.png)
 
-### create 3rd job to get code from main and deploy on AWS in a running ec2 instance
+### Third job to get code from main branch and deploy on AWS in a running ec2 instance
 
 - add contents of pem file into ssh > credentials 
 - create new ec2 instance (new feature so cant use ami)
