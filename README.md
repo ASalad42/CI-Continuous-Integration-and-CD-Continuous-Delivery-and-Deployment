@@ -14,7 +14,7 @@ Working Diagram:
 
 ## Integral Part of DevOps Lifecycle 
 
-![image](https://user-images.githubusercontent.com/104793540/188125377-ed817119-60f2-4298-a091-6351ac675ae9.png)
+![image](https://user-images.githubusercontent.com/104793540/188126158-d84a579b-2683-482c-8b8a-375f62405ed0.png)
 
 - **Continuous development**
 - **Continuous integration**
