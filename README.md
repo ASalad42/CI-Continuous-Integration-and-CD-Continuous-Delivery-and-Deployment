@@ -164,7 +164,7 @@ Have job to merge the develop branch code with the master branch and test agains
 so the following was done in dev on local host > pushed > jenkins recieved and tested > then merged with main after success 
 ![image](https://user-images.githubusercontent.com/104793540/187961463-b53ea776-14ad-4d74-b6fd-76b571367aba.png)
 
-### Job 3 - CD to AWS EC2
+### Job 3 - Continous delivery to AWS EC2
 
 Third job to get code from main branch and deploy on AWS in a running ec2 instance
 Create 3rd job in Jenkins: get the code from main branch and copy (scp) to ec2 – run the script  to install node with any other required dependencies  
@@ -191,9 +191,12 @@ deliverying app into ec2:
 ![image](https://user-images.githubusercontent.com/104793540/188202311-a4352123-fb01-4bab-a7cb-5318e03a7a19.png)
 
 
-### Job 4 - launch the app 
+### Job 4 - Continous deployment to AWS EC2
 
-– if 3rd was successful 
+something like this:
+
+![image](https://user-images.githubusercontent.com/104793540/188203412-fd169d5a-626d-4995-984b-8d85b2c0f1ab.png)
+
 
 ### Job 5 - Create DB_HOST=db-ip
 
