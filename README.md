@@ -166,7 +166,7 @@ so the following was done in dev on local host > pushed > jenkins recieved and t
 - create new ec2 instance (new feature so cant use ami)
 - Create sg – allow Jenkins ip to ssh in as well as any rules required 
 
-![image](https://user-images.githubusercontent.com/104793540/188116470-6a777581-2647-4cfd-8b53-f69c17a74f67.png)
+![image](https://user-images.githubusercontent.com/104793540/188130660-e989e083-1b8f-4d55-a92b-9bd359116817.png)
 
 
 - Create 3rd job in Jenkins: get the code from main branch and copy (scp) to ec2 – run the script  to install node with any other required dependencies  
