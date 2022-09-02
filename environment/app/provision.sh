@@ -50,15 +50,15 @@ sudo systemctl start nginx
 sudo systemctl enable nginx
 
 # reverse proxy 
-#sudo rm /etc/nginx/sites-available/default
-#sudo cp /home/ubuntu/environment/app/nginx.default /etc/nginx/sites-available/default
+sudo rm /etc/nginx/sites-available/default
+sudo cp /home/ubuntu/jenkins_app/environment/app/nginx.default /etc/nginx/sites-available/default
 
 # Install dependencies
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get install nodejs -y
 sudo apt-get install npm 
 sudo npm install pm2 -g
-sudo apt-get install python-software-properties -y
+# sudo apt-get install python-software-properties -y
 sudo apt update -y && sudo apt upgrade -y
 cd app
 npm install
