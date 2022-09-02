@@ -181,7 +181,7 @@ Create 3rd job in Jenkins: get the code from main branch and copy (scp) to ec2 â
 ![image](https://user-images.githubusercontent.com/104793540/188174560-174d23f1-d3cb-4742-8f2d-661d744c8471.png)
 
 deliverying app into ec2:
-- rsync sshs into ec2 and delivery app folder from workspace into jenkins_app on ec2 via ip
+- rsync sshs into ec2 and delivers app folder from workspace into jenkins_app on ec2 via ip
 
 ![image](https://user-images.githubusercontent.com/104793540/188181370-034053a0-8f0e-43e1-b199-f5f7ea33a7ea.png)
 ![image](https://user-images.githubusercontent.com/104793540/188181726-b7cd5ce7-5018-4030-8a1b-02b107a66d14.png)
