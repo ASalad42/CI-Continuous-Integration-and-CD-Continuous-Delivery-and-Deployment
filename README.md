@@ -153,7 +153,9 @@ all my attempts before hand:
 
 ![image](https://user-images.githubusercontent.com/104793540/187960161-c74aa057-354e-46d3-8ddb-b8bed17610ee.png)
 
-### Have job to merge the develop branch code with the master branch and test against that
+### Job 2 - Merged to Main 
+
+Have job to merge the develop branch code with the master branch and test against that
 
 ![image](https://user-images.githubusercontent.com/104793540/187960543-98dbe58a-685a-43bc-afd5-d78f8df671fe.png)
 ![image](https://user-images.githubusercontent.com/104793540/187961102-1a9bcf68-8786-401f-9ff1-d379f17e6f3a.png)
@@ -162,7 +164,9 @@ all my attempts before hand:
 so the following was done in dev on local host > pushed > jenkins recieved and tested > then merged with main after success 
 ![image](https://user-images.githubusercontent.com/104793540/187961463-b53ea776-14ad-4d74-b6fd-76b571367aba.png)
 
-### Third job to get code from main branch and deploy on AWS in a running ec2 instance
+### Job 3 - CD to AWS EC2
+
+Third job to get code from main branch and deploy on AWS in a running ec2 instance
 
 - add contents of pem file into ssh > credentials 
 - create new ec2 instance (new feature so cant use ami)
@@ -175,9 +179,38 @@ so the following was done in dev on local host > pushed > jenkins recieved and t
 
 ![image](https://user-images.githubusercontent.com/104793540/188131968-f3c1d553-b50c-49fb-b1a0-1152ab53c205.png)
 
-- 3rd job only triggered 
+- 3rd job only triggered if second was success 
 - First iteration run npm install & npm start manually 
 - 4th job launch the app – if 3rd was successful 
 - Pm2 kill all - Create a 5th job to create DB_HOST=db-ip
 - Npm start 
 
+Sudo Code
+```
+
+# ssh into ec2 on aws
+# by pass the step where it asks us to confirm the manually 
+# scp or rsyn to migrate data from github to ec2
+# run provision.sh
+#--------------- 
+# ssh into your ec2 from localhost to confirm the data has been migrated
+# navigate to app folder
+# ---------------
+# new job to be triggered by above job to launch the app
+# npm install
+
+# next job for your db
+#pm2 kill all
+#db_host
+#npm start in the background
+
+# npm start in the background
+# nohup node app.js > /dev/null 2>&1 &
+
+```
+
+### Job 4 - launch the app 
+
+– if 3rd was successful 
+
+### Job 5 - Create DB_HOST=db-ip
