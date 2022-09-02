@@ -181,10 +181,14 @@ Create 3rd job in Jenkins: get the code from main branch and copy (scp) to ec2 â
 ![image](https://user-images.githubusercontent.com/104793540/188174560-174d23f1-d3cb-4742-8f2d-661d744c8471.png)
 
 deliverying app into ec2:
-- rsync sshs into ec2 and delivers app folder from workspace into jenkins_app on ec2 via ip
+- rsync delivers app and evironment folder from workspace into jenkins_app on ec2 via ip
+- then ssh into ec2 instance 
+- run provision script from env folder 
+- npm install 
+- npm start
 
-![image](https://user-images.githubusercontent.com/104793540/188181370-034053a0-8f0e-43e1-b199-f5f7ea33a7ea.png)
-![image](https://user-images.githubusercontent.com/104793540/188181726-b7cd5ce7-5018-4030-8a1b-02b107a66d14.png)
+![image](https://user-images.githubusercontent.com/104793540/188196314-f56355e0-9e3b-49ad-b3d2-e949f85e4596.png)
+![image](https://user-images.githubusercontent.com/104793540/188196678-ccb6848e-3dc1-4e92-9e00-0334ab8b068f.png)
 
 
 ### Job 4 - launch the app 
