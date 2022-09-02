@@ -52,6 +52,8 @@ sudo systemctl enable nginx
 # reverse proxy 
 sudo rm /etc/nginx/sites-available/default
 sudo cp /home/ubuntu/jenkins_app/environment/app/nginx.default /etc/nginx/sites-available/default
+sudo systemctl restart nginx 
+sudo systemctl enable nginx
 
 # Install dependencies
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
