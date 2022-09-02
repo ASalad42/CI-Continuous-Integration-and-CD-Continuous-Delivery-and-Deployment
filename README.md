@@ -187,8 +187,8 @@ deliverying app into ec2:
 - npm install 
 - npm start
 
-![image](https://user-images.githubusercontent.com/104793540/188196314-f56355e0-9e3b-49ad-b3d2-e949f85e4596.png)
-![image](https://user-images.githubusercontent.com/104793540/188196678-ccb6848e-3dc1-4e92-9e00-0334ab8b068f.png)
+![image](https://user-images.githubusercontent.com/104793540/188202270-c04fb212-5612-4f4c-b672-4bb6478f44f4.png)
+![image](https://user-images.githubusercontent.com/104793540/188202311-a4352123-fb01-4bab-a7cb-5318e03a7a19.png)
 
 
 ### Job 4 - launch the app 
