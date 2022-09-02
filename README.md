@@ -12,8 +12,23 @@ Working Diagram:
 
 ![image](https://user-images.githubusercontent.com/104793540/187963750-f3c11787-1e12-4fd6-ab3f-927099002c47.png)
 
+## Integral Part of DevOps Lifecycle 
+
+![image](https://user-images.githubusercontent.com/104793540/188125377-ed817119-60f2-4298-a091-6351ac675ae9.png)
+
+- **Continuous development**
+- **Continuous integration**
+- Continuous testing
+- **Continuous deployment**
+- Continuous monitoring
+- Continuous feedback
+- Continuous operations
+
 ## Continuous Integration (CI)
 Developers merge/commit code to master branch multiple times a day, fully automated build and test process which gives feedback within few minutes, by doing so, you avoid the integration hell that usually happens when people wait for release day to merge their changes into the release branch.
+
+CI: Automation 
+
 
 ## Continuous Delivery
 Continuous Delivery ensures that you can release new changes to your customers quickly in a sustainable way. This means that on top of having automated your testing, you also have automated your release process and you can deploy your application at any point of time by clicking on a button. **In continuous Delivery the deployment is completed manually.**
