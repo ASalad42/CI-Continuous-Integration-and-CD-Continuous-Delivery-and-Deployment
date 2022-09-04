@@ -75,14 +75,13 @@ deliverying app into ec2:
 
 ### Job 4 - Continous deployment to AWS EC2
 
-something like this:
-
-![image](https://user-images.githubusercontent.com/104793540/188203412-fd169d5a-626d-4995-984b-8d85b2c0f1ab.png)
-
 currently:
+![image](https://user-images.githubusercontent.com/104793540/188311962-109f0cd9-ab17-4d23-92f7-1cbd20116a2d.png)
 
-![image](https://user-images.githubusercontent.com/104793540/188311608-35ad23b3-415b-471b-8f8a-f22bc41b3564.png)
 
+starts the app after successful delivery only: 
+
+![image](https://user-images.githubusercontent.com/104793540/188311933-19ef7aad-8bef-4520-b793-078592c29cc3.png)
 
 ### Job 5 - Create DB_HOST=db-ip
 
