@@ -68,6 +68,8 @@ deliverying app into ec2:
 - npm start
 
 ![image](https://user-images.githubusercontent.com/104793540/188202270-c04fb212-5612-4f4c-b672-4bb6478f44f4.png)
+![image](https://user-images.githubusercontent.com/104793540/188311451-69af34dc-95fb-416e-b242-5c47ed84289e.png)
+![image](https://user-images.githubusercontent.com/104793540/188311508-447c977e-dd4b-4d98-b1b0-3e6eb6486348.png)
 ![image](https://user-images.githubusercontent.com/104793540/188202311-a4352123-fb01-4bab-a7cb-5318e03a7a19.png)
 
 
