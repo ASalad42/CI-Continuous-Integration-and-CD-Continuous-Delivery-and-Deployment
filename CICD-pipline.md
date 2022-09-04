@@ -79,6 +79,10 @@ something like this:
 
 ![image](https://user-images.githubusercontent.com/104793540/188203412-fd169d5a-626d-4995-984b-8d85b2c0f1ab.png)
 
+currently:
+
+![image](https://user-images.githubusercontent.com/104793540/188311608-35ad23b3-415b-471b-8f8a-f22bc41b3564.png)
+
 
 ### Job 5 - Create DB_HOST=db-ip
 
