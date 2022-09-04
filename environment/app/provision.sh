@@ -62,8 +62,8 @@ sudo apt-get install npm
 sudo npm install pm2 -g
 # sudo apt-get install python-software-properties -y
 sudo apt update -y && sudo apt upgrade -y
-cd app
-npm install
-nohup node app.js > /dev/null 2>&1 &
+#cd app
+#npm install
+#nohup node app.js > /dev/null 2>&1 &
 
 #
