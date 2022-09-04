@@ -59,7 +59,11 @@ sudo systemctl enable nginx
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get install nodejs -y
 sudo apt-get install npm 
+
 sudo npm install pm2 -g
+
+npm install express -y
+npm install mongoose -y
 # sudo apt-get install python-software-properties -y
 sudo apt update -y && sudo apt upgrade -y
 #cd app
