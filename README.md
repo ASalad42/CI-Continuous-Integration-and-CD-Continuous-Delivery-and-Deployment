@@ -117,4 +117,3 @@ Webhooks are custom HTTP callbacks that you define. They are usually **triggered
 - click add > jenkins > kind: SSH Username with private key
 - cat file.pem aws key - begin to end - everything in that file copy over 
 - credentials same as pem key name 
-
